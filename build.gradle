@@ -7,11 +7,17 @@ version '1.0'
 
 repositories {
     mavenCentral()
+    flatDir {
+        dirs "$rootProject.projectDir"
+    }
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile name: 'libs/leadium-core'
+    compile name: 'filefinder'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "org.junit.jupiter:junit-jupiter:5.4.0"
+    implementation "com.codeborne:selenide:5.2.4"
 }
 
 compileKotlin {
@@ -20,4 +26,8 @@ compileKotlin {
 
 compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
 }
