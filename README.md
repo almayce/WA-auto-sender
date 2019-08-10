@@ -1,7 +1,7 @@
 # WA-auto-sender
 
 1. https://git-scm.com/download/win
-2. https://www.oracle.com/technetwork/Java/Javase/downloads/index.html
+2. https://www.oracle.com/technetwork/java/javase/downloads/2133151
 3. reboot
 4. cd C:\projects\wa
 5. git init
