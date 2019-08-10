@@ -1,7 +1,9 @@
 # WA-auto-sender
 
 1. https://git-scm.com/download/win
-2. cd C:\projects\wa
-3. git init
-4. cd WA-auto-sender
-5. gradlew.bat test -i
+2. https://www.oracle.com/technetwork/Java/Javase/downloads/index.html
+3. reboot
+4. cd C:\projects\wa
+5. git init
+6. cd WA-auto-sender
+7. gradlew.bat test -i
