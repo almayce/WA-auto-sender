@@ -5,5 +5,5 @@
 3. reboot
 4. cd C:\projects\wa
 5. git init
-6. cd WA-auto-sender
+6. cd wa-auto-sender
 7. gradlew.bat test -i
